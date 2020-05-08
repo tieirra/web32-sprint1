@@ -32,7 +32,8 @@ footer, header, hgroup, menu, nav, section {
     display: flex;
     flex-direction: row;
 }
-li a{
+
+nav a{
     text-decoration: none;
     align-content: center;
     width: 70%;
@@ -255,13 +256,21 @@ footer nav a {
     text-decoration: none;
 }
 @media  (min-width: 500px) {
-    .top-nav {
+    .top-nav a{
         display: flex;
         flex-direction: column;
         justify-content: justify;
         width: 50%;
         margin-left: 50%;
+        margin-bottom: 5%;
+        color: black;
     }
+     .top-nav img{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 5%;
+        }
+
     .top-content , .top-nav , .boxes , .bottom-content {
         display: flex;
         flex-direction: column;
