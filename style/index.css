@@ -228,6 +228,38 @@ p {
     justify-content: center; 
     margin: 20px 2.5%;   
 }
+ @media(max-width: 500px){
+    .top-nav a{
+        display: flex;
+        flex-direction: column;
+        justify-content: justify;
+        margin-left: 50%;
+        width: 100%;
+        color: black;
+        font-size: 1.2rem;
+    }
+     .top-nav{
+     margin-left: 50%;
+     margin-bottom: 10%;
+
+    }
+     .top-nav img{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 5%;
+        }
+
+    .top-content , .top-nav , .boxes , .bottom-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: justify;   
+    }
+    .bottom-content p{
+        text-align: justify;
+        margin-bottom: 5%;
+        word-wrap: normal;
+    }
+}
 
 .bottom-content {
     display: flex;
@@ -262,7 +294,31 @@ footer nav a {
     text-decoration: none;
 }
 
-@media  (max-width: 500px) {
+@media(max-width: 800px){ 
+
+ .middle-content div{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-left: 5%;
+width: 40%;
+ }
+ .bottom-content {
+     display: flex;
+     flex-direction: row;
+     width: 70%;
+ }
+ .bottom-content  {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 50%;
+     margin-left: 20%;
+     background-color: chartreuse;
+ }
+
+}
+@media(max-width: 500px){
     .top-nav a{
         display: flex;
         flex-direction: column;
@@ -293,18 +349,4 @@ footer nav a {
         margin-bottom: 5%;
         word-wrap: normal;
     }
-}
-
-@media (max-width: 800px) { 
-.middle-content {
-display: flex;
-flex-direction: row;
-justify-content: justify;
-width: 100%;
-background-color: cornflowerblue;
- }
- .container {
-    display: flex;
-    flex-direction: column;
- }
 }
