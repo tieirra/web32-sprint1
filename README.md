@@ -25,7 +25,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 [Click here for mobile example](design/mobile.png)
 
 ### Commits
-
+Tieirra 
 Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your team lead.
 
 ## Self-Study Questions
