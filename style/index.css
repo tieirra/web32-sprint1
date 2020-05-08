@@ -28,17 +28,23 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-.top-nav{
+ .top-nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
 }
-
-nav a{
+ nav a {
+    display:flex;
+    flex-direction: row;
     text-decoration: none;
-    align-content: center;
-    width: 70%;
-
+    justify-content: space-evenly;
+    color: black;
 }
+.top-content img{
+    width: 100%;
+}
+
 body {
 	line-height: 1;
 }
@@ -106,7 +112,7 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+ .boxes2 , .boxes{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -119,8 +125,8 @@ p {
     margin: 20px 2.5%;
     color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row-reverse;
+
 }
 .box1{
     background-color: teal;
@@ -255,15 +261,21 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-@media  (min-width: 500px) {
+
+@media  (max-width: 500px) {
     .top-nav a{
         display: flex;
         flex-direction: column;
         justify-content: justify;
-        width: 50%;
         margin-left: 50%;
-        margin-bottom: 5%;
+        width: 100%;
         color: black;
+        font-size: 1.2rem;
+    }
+     .top-nav{
+     margin-left: 50%;
+     margin-bottom: 10%;
+
     }
      .top-nav img{
         margin-left: 10%;
@@ -283,16 +295,16 @@ footer nav a {
     }
 }
 
-@media (min-width: 800px ){
+@media (max-width: 800px) { 
 .middle-content {
 display: flex;
 flex-direction: row;
 justify-content: justify;
 width: 100%;
+background-color: cornflowerblue;
  }
- .top-nav {
-     display: flex;
-     flex-direction: row;
-     margin-right: 25%;
- } 
+ .container {
+    display: flex;
+    flex-direction: column;
+ }
 }
