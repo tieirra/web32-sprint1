@@ -28,6 +28,16 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+.top-nav{
+    display: flex;
+    flex-direction: row;
+}
+li a{
+    text-decoration: none;
+    align-content: center;
+    width: 70%;
+
+}
 body {
 	line-height: 1;
 }
@@ -101,7 +111,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes  .box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,6 +120,96 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box1{
+    background-color: teal;
+    width: 12.5%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.box2{
+    background-color:gold;
+    width: 12.5%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.box3{
+    background-color: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.box4{
+    background-color: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.box5{
+    background-color: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.box6{
+    background-color: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.box7{
+    background-color: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.box8{
+    background-color: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.box9{
+    background-color: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.box10{
+    background-color: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
 }
 
 .bottom-content {
