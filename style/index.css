@@ -128,9 +128,11 @@ p {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
+    margin: 20px 2.5%;    
 }
 .box2{
+    margin: 20px 2.5%;
     background-color:gold;
     width: 12.5%;
     height: 100px;
@@ -140,6 +142,7 @@ p {
     justify-content: center;    
 }
 .box3{
+    margin: 20px 2.5%;
     background-color: cadetblue;
     width: 12.5%;
     height: 100px;
@@ -149,67 +152,74 @@ p {
     justify-content: center;    
 }
 .box4{
-    background-color: cadetblue;
+    background-color:coral;
     width: 12.5%;
     height: 100px;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center; 
+    margin: 20px 2.5%;   
 }
 .box5{
-    background-color: cadetblue;
+    background-color: crimson;
     width: 12.5%;
     height: 100px;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center; 
+    margin: 20px 2.5%;   
 }
 .box6{
-    background-color: cadetblue;
+    background-color: forestgreen;
     width: 12.5%;
     height: 100px;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center; 
+    margin: 20px 2.5%;   
 }
 .box7{
-    background-color: cadetblue;
+    background-color: darkorchid;
     width: 12.5%;
     height: 100px;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center; 
+    margin: 20px 2.5%;   
 }
 .box8{
-    background-color: cadetblue;
+    background-color: hotpink;
     width: 12.5%;
     height: 100px;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;  
+    margin: 20px 2.5%;  
 }
 .box9{
-    background-color: cadetblue;
+    background-color: indigo;
     width: 12.5%;
     height: 100px;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center; 
+    margin: 20px 2.5%;   
 }
 .box10{
-    background-color: cadetblue;
+    background-color: dodgerblue;
     width: 12.5%;
     height: 100px;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center; 
+    margin: 20px 2.5%;   
 }
 
 .bottom-content {
@@ -243,4 +253,18 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+@media (min-width: 500px) {
+    .top-nav{
+        background-color: hotpink;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 50%;
+    }
+    .top-content , .top-nav , .boxes , .bottom-content {
+        display: flex;
+        flex-direction: column;   
+    }
+
 }
