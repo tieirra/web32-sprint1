@@ -254,17 +254,36 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-@media (min-width: 500px) {
-    .top-nav{
-        background-color: hotpink;
+@media  (min-width: 500px) {
+    .top-nav {
         display: flex;
         flex-direction: column;
+        justify-content: justify;
         width: 50%;
         margin-left: 50%;
     }
     .top-content , .top-nav , .boxes , .bottom-content {
         display: flex;
-        flex-direction: column;   
+        flex-direction: column;
+        justify-content: justify;   
     }
+    .bottom-content p{
+        text-align: justify;
+        margin-bottom: 5%;
+        word-wrap: normal;
+    }
+}
 
+@media (min-width: 800px ){
+.middle-content {
+display: flex;
+flex-direction: row;
+justify-content: justify;
+width: 100%;
+ }
+ .top-nav {
+     display: flex;
+     flex-direction: row;
+     margin-right: 25%;
+ } 
 }
