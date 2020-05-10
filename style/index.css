@@ -303,6 +303,13 @@ justify-content: center;
 margin-left: 5%;
 width: 40%;
  }
+ .container .top-content{
+     display:flex;
+     flex-direction: column;
+    width:100%;
+   
+ }
+ 
  .bottom-content {
      display: flex;
      flex-direction: row;
@@ -319,15 +326,15 @@ width: 40%;
 
 }
 
-@media(max-width: 500px){
-    .top-nav a{
+@media screen and (max-width: 500px) {
+     header .top-nav {
         display: flex;
         flex-direction: column;
         justify-content: justify;
-        margin-left: 50%;
-        width: 100%;
-        color: black;
-        font-size: 1.2rem;
+        background-color: chartreuse;
+    }
+    .middle-content{
+        background-color: chocolate;
     }
      .top-nav{
      margin-left: 50%;
