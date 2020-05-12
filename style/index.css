@@ -82,9 +82,11 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+body {
+    overflow: hidden; 
+  }
 .container {
-    width: 800px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -263,7 +265,7 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 20%;
     justify-content: space-around;
 }
 
@@ -281,7 +283,7 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -299,62 +301,79 @@ footer nav a {
  .middle-content div{
 display: flex;
 flex-direction: row;
-justify-content: center;
+align-content:  center;
 margin-left: 5%;
 width: 40%;
  }
- .container .top-content{
+ .container .top-content {
      display:flex;
      flex-direction: column;
-    width:100%;
-   
+    width:100%;  
  }
- 
- .bottom-content {
-     display: flex;
-     flex-direction: row;
-     width: 70%;
+ .container .top-content div {
+     word-wrap: none;
+     width: 100%;
  }
- .bottom-content  {
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     align-items: flex-start;
-     width: 70%;
-     margin-left: 20%;
+.middle-content .boxes {
+    display: flex;
+    align-items: right;
+    margin-left: 20%;
+}
+  .bottom-content{
+    display:flex;
+    flex-wrap: wrap;
+    word-wrap: none;  
  }
+
+.bottom-content div{
+    width: 50%;
+}
 
 }
 
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 500px) { 
      header .top-nav {
         display: flex;
         flex-direction: column;
         justify-content: justify;
-        background-color: chartreuse;
     }
-    .middle-content{
-        background-color: chocolate;
+    .middle-content div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       margin-left: 20%;
+
     }
+    h2{
+        margin-left: 35%;
+    }
+
      .top-nav{
      margin-left: 50%;
      margin-bottom: 10%;
 
     }
-     .top-nav img{
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-bottom: 5%;
-        }
-
-    .top-content , .top-nav , .boxes , .bottom-content {
+    
+    .top-content , .top-nav , .boxes , .bottom-content{ 
         display: flex;
         flex-direction: column;
-        justify-content: justify;   
+        justify-content: justify; 
+        width: 50%;
+        align-items: center;  
     }
-    .bottom-content p{
-        text-align: justify;
-        margin-bottom: 5%;
-        word-wrap: normal;
+    .bottom-content div{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        word-wrap: wrap;
+        max-width: 60%;
+        margin-left: 50%;
+    }
+    
+    footer nav{
+        display: flex;
+        flex-direction: column;
+        height: 20%;
     }
 }
