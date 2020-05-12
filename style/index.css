@@ -82,9 +82,6 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-body {
-    overflow: hidden; 
-  }
 .container {
     width: 90%;
     margin: 0 auto;
@@ -230,39 +227,7 @@ body {
     justify-content: center; 
     margin: 20px 2.5%;   
 }
- @media(max-width: 500px){
-    .top-nav a{
-        display: flex;
-        flex-direction: column;
-        justify-content: justify;
-        margin-left: 50%;
-        width: 100%;
-        color: black;
-        font-size: 1.2rem;
-    }
-     .top-nav{
-     margin-left: 50%;
-     margin-bottom: 10%;
-
-    }
-     .top-nav img{
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-bottom: 5%;
-        }
-
-    .top-content , .top-nav , .boxes , .bottom-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: justify;   
-    }
-    .bottom-content p{
-        text-align: justify;
-        margin-bottom: 5%;
-        word-wrap: normal;
-    }
-}
-
+ 
 .bottom-content {
     display: flex;
     margin: 0 2% 20%;
@@ -336,7 +301,8 @@ width: 40%;
      header .top-nav {
         display: flex;
         flex-direction: column;
-        justify-content: justify;
+        align-items: center;
+        margin-left: 25%;
     }
     .middle-content div{
         display: flex;
@@ -349,11 +315,7 @@ width: 40%;
         margin-left: 35%;
     }
 
-     .top-nav{
-     margin-left: 50%;
-     margin-bottom: 10%;
-
-    }
+     
     
     .top-content , .top-nav , .boxes , .bottom-content{ 
         display: flex;
